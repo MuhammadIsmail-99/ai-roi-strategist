@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+.glass-card {
+  @apply bg-card border border-white/5 backdrop-blur-xl rounded-2xl;
+}
+
+.input-field {
+  @apply bg-black/40 border border-white/10 rounded-lg px-4 py-2 outline-none focus:border-primary/50 transition-colors w-full;
+}
